@@ -1,3 +1,19 @@
+# Student Score Lab — completed notebooks
+
+All three notebooks include checkpoint answers, discussion answers, experiments, and saved outputs.
+
+| Notebook | Topic | Checkpoints |
+|---|---|---|
+| [01_fix_the_pipeline.ipynb](notebooks/01_fix_the_pipeline.ipynb) | Nine preprocessing fixes and scoreboard | 9/9 |
+| [02_linear_regression.ipynb](notebooks/02_linear_regression.ipynb) | Predict final scores | 6/6 |
+| [03_logistic_regression.ipynb](notebooks/03_logistic_regression.ipynb) | Predict pass/fail | 6/6 |
+
+Final test results: **R² 0.8731**, **MAE 4.5421 points**, **AUC 0.9722**. All 84 code cells executed without errors, with 17 plots saved. Data is synthetic.
+
+Run the notebooks in order: **01 → 02 → 03**. Install the packages in `requirements.txt` first. The scoreboard in `outputs/scoreboard.csv` contains the baseline and nine cumulative patch runs. Discussion experiments keep the main saved pass mark at 70.
+
+The original course instructions by Siyu Wu follow below.
+
 # AI-100 section 1 Lab2 data preprocessing, linear regression/classifier by Siyu Wu
 
 You are given a data pipeline that **runs but is missing 9 data-processing steps**.
